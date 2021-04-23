@@ -1,0 +1,64 @@
+.create-btn {
+  text-decoration: none;
+  border: 2px outset blue;
+  border-radius: 4px;
+  padding: 8px 18px;
+  color: blue;
+  font-size: 14px;
+}
+.create-btn i {
+  margin-right: 4px;
+}
+.article-container {
+  margin: 30px 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+.article-container h2 {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.article-container div {
+  display: flex;
+  align-items: center;
+}
+.article-container div img {
+  width: 200px;
+}
+.article-description {
+  margin-left: 20px;
+  width: 62%;
+}
+.operation-buttons a {
+  margin: 10px 15px;
+  text-decoration: none;
+  border: 2px outset blue;
+  border-radius: 4px;
+  padding: 8px 18px;
+  color: blue;
+  font-size: 14px;
+}
+.operation-buttons button {
+  border: 2px outset red;
+  border-radius: 4px;
+  padding: 10px 18px;
+  color: red;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .articles {
+    margin: 0 10px;
+  }
+  .article-container {
+    margin: 0;
+  }
+  .article-container div {
+    display: block;
+    width: 90%;
+  }
+  .operation-buttons {
+    margin-top: 20px;
+  }
+}
